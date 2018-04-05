@@ -1,6 +1,9 @@
 # Vagrant doc.
 
-Pré-requis : installer vagrand sur le PC hôte
+### Pré-requis : 
+* Installer vagrant sur le PC hôte
+* Créer un dossier `machines` et un dossier `projects` à l'origine du dossier utilisateur (exemple C:\Utilisateurs\Sofiane)
+* Placer le `vagrantfile` dans le dossier `machines`
 
 ## 1 Récupération de l'image vagrant
 	* `vagrant box add <nom_de_l_image | URL>` (exemple : bento/centos-7.4)
